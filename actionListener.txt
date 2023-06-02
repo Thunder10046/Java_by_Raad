@@ -1,0 +1,20 @@
+txt1 = new JTextField();
+        txt1.setBounds(50, 50, 200, 50);
+        txt1.setForeground(Color.black);
+        txt1.setBackground(Color.gray);
+        c.add(txt1);
+
+
+        txt1.addActionListener(new ActionListener(){
+                public void actionPerformed(ActionEvent e)
+                {
+                    String s = txt1.getText();
+                    JOptionPane.showMessageDialog(null,s);
+                }
+        }); //Syntaax here is utmostly important. Observe Carefully.
+
+
+        Another interesting class : JPasswordField. Use same as other. 
+
+        
+        

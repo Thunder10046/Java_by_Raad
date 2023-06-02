@@ -1,0 +1,1 @@
+Why to use JTextArea? = To multiple line writing

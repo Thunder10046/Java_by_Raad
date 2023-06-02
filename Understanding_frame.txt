@@ -1,0 +1,43 @@
+// Jframe is a class of swing package and is used as a container to edit output
+// window features.
+
+// There are some methods predefined in this class, defined below-
+// setVisible() - is used to show the frame/window only when setvisible(true);
+// you can assume it as the instalization of frame
+
+// setDefaultCloseOperation() - is used for close the frame/stop the programme
+// setSize() - used for defining the width and length of the frame
+// setLocation() - used for defining where the window would appear 
+// setBounds() - used as a collaboration of both setSize() and setLocation()
+// setTitle() - used for the title of the frame
+// setResizable - used if the frame coulb be resized by the user or not 
+
+// JFrame frame = new JFrame(); 
+//         frame.setVisible(true); 
+//         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//         frame.setBounds(100, 200, 500, 500); parameter sequentially defines x axis, y axis, width, length.
+//         frame.setTitle("Frame");
+//         frame.setResizable(false);
+
+
+//Using Constractor: 
+
+// Java_prac()
+//     {
+//         ImageIcon img = new ImageIcon(getClass().getResource("engrr.png")); //add image as icon
+//         this.setIconImage(img.getImage());
+//         setVisible(true);
+//         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//         setBounds(100, 200, 500, 500);
+//         setTitle("Frame");
+//         setResizable(true);
+//     }
+
+
+//     public static void main(String[] args) {
+//         Java_prac frame = new Java_prac();
+        
+        
+        
+
+//     }

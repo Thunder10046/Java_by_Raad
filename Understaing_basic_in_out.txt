@@ -1,0 +1,43 @@
+// // For showing some message to the user, use JOptionPane class. This class contains some method. 
+// // 1. showMessageDialogue()- to output a message 
+// // 2. showInputDialogue()- to input a message by user 
+// // 3. showOptionDialogue()- to give option to a user 
+// // 4. showConfirmDialogue()- 
+
+// // JOptionPane.showMessageDialog(null,"Ahmed Raad Auritro.") here null indicates that the window will appear in center, And second perameter indicates what it will show in the window, i.e. sting/message
+
+// //For Four parameters : JOptionPane.showMessageDialog(null,"Wrong Password! ","Warning",JOptionPane.ERROR_MESSAGE); here 3rd parameter indicates title for the window and 4th parameter is for the icon to show in the window. 
+
+// //ERROR_MESSAGE,INFORMATION_MESSAGE, WARNING_MESSAGE, QUESTION_MESSAGE are used for different icons to show in the window.
+
+// //To show image as an icon set by programer, use Javax.swing.ImageIcon class and define accordingly : 
+// //ImageIcon img(obj name) = new ImageIcon("Name of the image file with its type") ; JOptionPane.showMessageDialogue(nulll,"Raad","Wrong Password",JOptionPane.PLAIN_MESSAGE,img)
+
+// //For input, use accordingly- 
+// //String name = JOptionPane.showInputDialog(null, "Enter Your Name:") ; JOptionPane.showMessageDialog(null, name + "Welcome to Swing!","Title",JOptionPane.INFORMATION_MESSAGE);   
+
+// //For showConfirmDialogue() method, use accordingly 
+// //int choice= JOptionPane.showConfirmDialog(null, "Enter Your Option", "Quit", JOptionPane.YES_NO_OPTION);
+// // if (choice == JOptionPane.YES_OPTION) {
+// //     System.exit(0);
+// // }
+// // else
+// // {
+// //     JOptionPane.showMessageDialog(null,"Thank you for your Time");
+// // }    
+
+
+
+
+// Input as a box: 
+
+// private Container c;
+// private JTextField txt1;
+
+// txt1 = new JTextField();
+// txt1.setBounds(50,50,200,50);
+// txt1.setForeground(Color.black);
+// txt1.setBackground(Color.gray);
+// c.add(txt1);
+
+

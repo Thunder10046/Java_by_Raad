@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch First",
+            "request": "launch",
+            "mainClass": "CSE1204.First",
+            "projectName": "Java Tuitorial Practice_191d01fa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Second",
+            "request": "launch",
+            "mainClass": "CSE1204.Second",
+            "projectName": "Java Tuitorial Practice_191d01fa"
+        },
+        {
+            "type": "java",
+            "name": "Launch billing",
+            "request": "launch",
+            "mainClass": "billing",
+            "projectName": "Java Tuitorial Practice_191d01fa"
+        },
+        {
+            "type": "java",
+            "name": "Launch code_frame",
+            "request": "launch",
+            "mainClass": "code_frame",
+            "projectName": "Java Tuitorial Practice_191d01fa"
+        },
+        {
+            "type": "java",
+            "name": "Launch combo_box",
+            "request": "launch",
+            "mainClass": "combo_box",
+            "projectName": "Java Tuitorial Practice_191d01fa"
+        },
+        {
+            "type": "java",
+            "name": "Launch cvr",
+            "request": "launch",
+            "mainClass": "cvr",
+            "projectName": "Java Tuitorial Practice_191d01fa"
+        },
+        {
+            "type": "java",
+            "name": "Launch framen",
+            "request": "launch",
+            "mainClass": "framen",
+            "projectName": "Java Tuitorial Practice_191d01fa"
+        },
+        {
+            "type": "java",
+            "name": "Launch input_box",
+            "request": "launch",
+            "mainClass": "input_box",
+            "projectName": "Java Tuitorial Practice_191d01fa"
+        },
+        {
+            "type": "java",
+            "name": "Launch login",
+            "request": "launch",
+            "mainClass": "login",
+            "projectName": "Java Tuitorial Practice_191d01fa"
+        },
+        {
+            "type": "java",
+            "name": "Launch multiplication",
+            "request": "launch",
+            "mainClass": "multiplication",
+            "projectName": "Java Tuitorial Practice_191d01fa"
+        },
+        {
+            "type": "java",
+            "name": "Launch radiobutton",
+            "request": "launch",
+            "mainClass": "radiobutton",
+            "projectName": "Java Tuitorial Practice_191d01fa"
+        }
+    ]
+}
